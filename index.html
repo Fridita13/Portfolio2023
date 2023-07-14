@@ -25,7 +25,7 @@
                     <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive"  onclick="mostrarOcultarMenu()">
             <i class="fa-solid fa-bars"></i>
         </div>
         </header>
@@ -312,5 +312,57 @@
             </div>
         </div>
     </section>
+    
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre">
+                    <input type="text" placeholder="Número de Teléfono">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Caballito, CABA, Argentina
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                frida.cernigoi@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+        
+    </div>
+</footer>
+<script src="script.js"></script>></script>
+
 </body>
 </html>
